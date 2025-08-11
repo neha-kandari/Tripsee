@@ -103,7 +103,7 @@ const BaliPage = () => {
       highlights: "Desa Swan Villas • Semabu Hills • Monolocale Luxury Resort • Bali Safari"
     },
     {
-      image: "/destination/bali/BaliHoneymoon.jpg",
+      image: "/Destination/bali/BaliHoneymoon.jpg",
       days: "6 Nights 7 Days",
       title: "HONEYMOON BEST SELLER - Romantic Private Pool Villas",
       location: "Umalas & Ubud",
