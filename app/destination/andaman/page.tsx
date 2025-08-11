@@ -27,22 +27,22 @@ const AndamanPage = () => {
 
   const sliderImages = [
     {
-      src: "/destination/AndamanHero/image1.jpg",
+      src: "/Destination/AndamanHero/image1.jpg",
       title: "Radhanagar Beach",
       subtitle: "Asia's best beach with pristine white sands and turquoise waters"
     },
     {
-      src: "/destination/AndamanHero/image2.jpg", 
+      src: "/Destination/AndamanHero/image2.jpg", 
       title: "Cellular Jail",
       subtitle: "Historic colonial prison and monument to India's freedom struggle"
     },
     {
-      src: "/destination/AndamanHero/image3.jpg",
+      src: "/Destination/AndamanHero/image3.jpg",
       title: "Coral Reefs", 
       subtitle: "Underwater paradise with vibrant marine life and coral gardens"
     },
     {
-      src: "/destination/AndamanHero/image4.jpg",
+      src: "/Destination/AndamanHero/image4.jpg",
       title: "Ross Island",
       subtitle: "Ruins of British settlement amidst tropical vegetation"
     }
@@ -92,7 +92,7 @@ const AndamanPage = () => {
   // Package data
   const allPackages = [
     {
-      image: "/destination/AndamanHero/image1.jpg",
+      image: "/Destination/AndamanHero/image1.jpg",
       days: "5 Nights 6 Days",
       title: "CLASSIC ANDAMAN - Port Blair & Havelock",
       location: "Port Blair & Havelock Island",
@@ -103,7 +103,7 @@ const AndamanPage = () => {
       highlights: "Radhanagar Beach • Cellular Jail • Elephant Beach • Light & Sound Show"
     },
     {
-      image: "/destination/AndamanHero/image2.jpg",
+      image: "/Destination/AndamanHero/image2.jpg",
       days: "4 Nights 5 Days",
       title: "QUICK ANDAMAN - Port Blair Special",
       location: "Port Blair & Ross Island",
@@ -114,7 +114,7 @@ const AndamanPage = () => {
       highlights: "Cellular Jail • Ross Island • Corbyn's Cove • Museum visits"
     },
     {
-      image: "/destination/AndamanHero/image3.jpg",
+      image: "/Destination/AndamanHero/image3.jpg",
       days: "6 Nights 7 Days",
       title: "ADVENTURE ANDAMAN - Diving & Water Sports",
       location: "Port Blair, Havelock & Neil Island",
@@ -125,7 +125,7 @@ const AndamanPage = () => {
       highlights: "Scuba diving • Sea walking • Parasailing • Jet skiing"
     },
     {
-      image: "/destination/AndamanHero/image4.jpg",
+      image: "/Destination/AndamanHero/image4.jpg",
       days: "7 Nights 8 Days",
       title: "COMPLETE ANDAMAN - All Islands Experience",
       location: "Port Blair, Havelock, Neil & Baratang",
@@ -136,7 +136,7 @@ const AndamanPage = () => {
       highlights: "Limestone caves • Mud volcano • Jarawa tribal area • All beaches"
     },
     {
-      image: "/destination/AndamanHero/image1.jpg",
+      image: "/Destination/AndamanHero/image1.jpg",
       days: "8 Nights 9 Days",
       title: "LUXURY ANDAMAN - Premium Island Experience",
       location: "Premium Andaman",
