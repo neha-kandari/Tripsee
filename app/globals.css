@@ -1,0 +1,147 @@
+/* Import Limelight font */
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+/* Import Arizonia font */
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+/* Import Merienda font */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700&display=swap');
+/* Import Libre Franklin font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for better typography and smooth transitions */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative transition-all duration-200;
+  }
+  
+  .nav-link::after {
+    @apply content-[''] absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-200;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+}
+
+/* Custom blur utilities */
+@layer utilities {
+  .blur-xs {
+    filter: blur(1px);
+  }
+}
+
+/* Font styles */
+.font-cursive {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-limelight {
+  font-family: 'Limelight', cursive;
+}
+
+.font-arizonia {
+  font-family: 'Arizonia', cursive;
+}
+
+.font-merienda {
+  font-family: 'Merienda', cursive;
+}
+
+.font-libre-franklin {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/* Custom Swiper styles for TopDestinations */
+.top-destinations-swiper .swiper-button-next,
+.top-destinations-swiper .swiper-button-prev {
+  color: #0d9488;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.top-destinations-swiper .swiper-button-next:after,
+.top-destinations-swiper .swiper-button-prev:after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.top-destinations-swiper .swiper-pagination-bullet {
+  background: #0d9488;
+  opacity: 0.5;
+}
+
+.top-destinations-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #0d9488;
+}
+
+/* Custom animations for hero section */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 1s ease-out;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 1s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 1s ease-out 0.3s both;
+}
+
+.animate-fade-in-up-delay {
+  animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.animate-fade-in-up-delay-2 {
+  animation: fadeInUp 1s ease-out 0.9s both;
+}
+
