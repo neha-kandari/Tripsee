@@ -19,7 +19,7 @@ const Header: React.FC = () => {
     { name: 'Malaysia', href: '/destination/malaysia' },
     { name: 'Dubai', href: '/destination/dubai' },
     { name: 'Maldives', href: '/destination/maldives' },
-    { name: 'Andamans', href: '/destination/andamans' },
+    { name: 'Andaman', href: '/destination/andaman' },
   ];
 
   const navItems = [
