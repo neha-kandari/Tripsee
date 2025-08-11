@@ -70,7 +70,7 @@ const RomanticHideawayPage = () => {
   // Romantic packages data
   const allPackages = [
     {
-      image: "/destination/MaldivesHero/image1.jpg",
+      image: "/Destination/MaldivesHero/image1.jpg",
       days: "4 Nights 5 Days",
       title: "MALDIVES HONEYMOON - Overwater Villa Paradise",
       location: "Maldives Private Resort",
@@ -82,7 +82,7 @@ const RomanticHideawayPage = () => {
       highlights: "Private villa • Romantic dinners • Couple massage • Snorkeling together"
     },
     {
-      image: "/destination/BaliHero/image4.jpg",
+      image: "/Destination/BaliHero/image4.jpg",
       days: "6 Nights 7 Days",
       title: "BALI ROMANTIC ESCAPE - Private Pool Villas",
       location: "Ubud & Seminyak",
@@ -94,7 +94,7 @@ const RomanticHideawayPage = () => {
       highlights: "Jungle villas • Rice terrace walks • Temple visits • Romantic dinners"
     },
     {
-      image: "/destination/ThailandHero/image2.jpg",
+      image: "/Destination/ThailandHero/image2.jpg",
       days: "5 Nights 6 Days",
       title: "THAILAND BEACH ROMANCE - Phi Phi & Phuket",
       location: "Phuket & Phi Phi Islands",
@@ -106,7 +106,7 @@ const RomanticHideawayPage = () => {
       highlights: "Maya Bay • James Bond Island • Beach dinners • Couple activities"
     },
     {
-      image: "/destination/DubaiHero/image4.jpg",
+      image: "/Destination/DubaiHero/image4.jpg",
       days: "4 Nights 5 Days",
       title: "DUBAI LUXURY ROMANCE - Desert & City",
       location: "Dubai & Desert Camp",
@@ -118,7 +118,7 @@ const RomanticHideawayPage = () => {
       highlights: "Atlantis stay • Desert camping • Helicopter proposal • Yacht cruise"
     },
     {
-      image: "/destination/singaporeHero/image1.jpg",
+      image: "/Destination/singaporeHero/image1.jpg",
       days: "3 Nights 4 Days",
       title: "SINGAPORE CITY ROMANCE - Marina Bay Experience",
       location: "Marina Bay & Sentosa",
@@ -130,7 +130,7 @@ const RomanticHideawayPage = () => {
       highlights: "Infinity pool • Gardens by Bay • Sentosa beaches • Romantic skyline"
     },
     {
-      image: "/destination/veitnamHero/image2.jpg",
+      image: "/Destination/veitnamHero/image2.jpg",
       days: "7 Nights 8 Days",
       title: "VIETNAM HERITAGE ROMANCE - Ha Long & Hoi An",
       location: "Hanoi, Ha Long & Hoi An",
@@ -142,7 +142,7 @@ const RomanticHideawayPage = () => {
       highlights: "Luxury cruise • Ancient towns • Lantern walks • Romantic dining"
     },
     {
-      image: "/destination/MalaysiaHero/image2.jpg",
+      image: "/Destination/MalaysiaHero/image2.jpg",
       days: "6 Nights 7 Days",
       title: "LANGKAWI ISLAND ROMANCE - Tropical Paradise",
       location: "Langkawi & Kuala Lumpur",
@@ -154,7 +154,7 @@ const RomanticHideawayPage = () => {
       highlights: "Eagle Square • Underwater World • Beach walks • Sunset views"
     },
     {
-      image: "/destination/AndamanHero/image1.jpg",
+      image: "/Destination/AndamanHero/image1.jpg",
       days: "5 Nights 6 Days",
       title: "ANDAMAN PRISTINE ROMANCE - Havelock Paradise",
       location: "Port Blair & Havelock",
@@ -166,7 +166,7 @@ const RomanticHideawayPage = () => {
       highlights: "Radhanagar Beach • Crystal waters • Beach activities • Romantic dinners"
     },
     {
-      image: "/destination/MaldivesHero/image4.jpg",
+      image: "/Destination/MaldivesHero/image4.jpg",
       days: "7 Nights 8 Days",
       title: "ULTIMATE MALDIVES ROMANCE - Multi-Resort Experience",
       location: "3 Luxury Maldives Resorts",
@@ -178,7 +178,7 @@ const RomanticHideawayPage = () => {
       highlights: "3 resort experiences • Private transfers • Michelin dining • Romantic spa"
     },
     {
-      image: "/destination/BaliHero/image1.jpg",
+      image: "/Destination/BaliHero/image1.jpg",
       days: "5 Nights 6 Days",
       title: "BALI PROPOSAL PARADISE - Perfect Engagement Setting",
       location: "Uluwatu & Nusa Dua",
@@ -190,7 +190,7 @@ const RomanticHideawayPage = () => {
       highlights: "Cliff-top proposal • Sunset ceremony • Professional photos • Celebration dinner"
     },
     {
-      image: "/destination/ThailandHero/image4.jpg",
+      image: "/Destination/ThailandHero/image4.jpg",
       days: "6 Nights 7 Days",
       title: "THAILAND HONEYMOON BLISS - Island & Culture",
       location: "Bangkok, Phuket & Krabi",
@@ -202,7 +202,7 @@ const RomanticHideawayPage = () => {
       highlights: "Temple visits • Island paradise • Couple spa • Romantic dinners"
     },
     {
-      image: "/destination/DubaiHero/image2.jpg",
+      image: "/Destination/DubaiHero/image2.jpg",
       days: "5 Nights 6 Days",
       title: "DUBAI PROPOSAL LUXURY - Sky-High Romance",
       location: "Dubai Marina & Palm Jumeirah",
@@ -483,10 +483,10 @@ const RomanticHideawayPage = () => {
           {/* Floating destination cards */}
           <div className="mt-16 grid md:grid-cols-4 gap-6">
             {[
-              { name: 'Maldives', image: '/destination/MaldivesHero/image2.jpg', packages: '2 Packages' },
-              { name: 'Bali', image: '/destination/BaliHero/image1.jpg', packages: '2 Packages' },
-              { name: 'Thailand', image: '/destination/ThailandHero/image3.jpg', packages: '2 Packages' },
-              { name: 'Dubai', image: '/destination/DubaiHero/image3.jpg', packages: '2 Packages' }
+              { name: 'Maldives', image: '/Destination/MaldivesHero/image2.jpg', packages: '2 Packages' },
+              { name: 'Bali', image: '/Destination/BaliHero/image1.jpg', packages: '2 Packages' },
+              { name: 'Thailand', image: '/Destination/ThailandHero/image3.jpg', packages: '2 Packages' },
+              { name: 'Dubai', image: '/Destination/DubaiHero/image3.jpg', packages: '2 Packages' }
             ].map((destination) => (
               <div key={destination.name} className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-2">
