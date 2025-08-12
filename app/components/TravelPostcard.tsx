@@ -6,22 +6,22 @@ const testimonials = [
   {
     name: 'Subhodip',
     destination: 'Turkey',
-    video: '/feedback/WhatsApp Video 2024-02-21 at 16.23.19_fd0537da.mp4'
+    video: '/Feedback/WhatsApp Video 2024-02-21 at 16.23.19_fd0537da.mp4'
   },
   {
     name: 'Soumee',
     destination: 'Mauritius',
-    video: '/feedback/WhatsApp Video 2024-12-23 at 6.27.27 PM.mp4'
+    video: '/Feedback/WhatsApp Video 2024-12-23 at 6.27.27 PM.mp4'
   },
   {
     name: 'Abhishek',
     destination: 'Singapore',
-    video: '/feedback/WhatsApp Video 2024-01-11 at 17.30.52.mp4'
+    video: '/Feedback/WhatsApp Video 2024-01-11 at 17.30.52.mp4'
   },
   {
     name: 'Poushali',
     destination: 'Vietnam',
-    video: '/feedback/WhatsApp Video 2025-07-21 at 4.08.19 PM.mp4'
+    video: '/Feedback/WhatsApp Video 2025-07-21 at 4.08.19 PM.mp4'
   }
 ];
 
