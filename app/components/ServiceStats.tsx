@@ -44,29 +44,29 @@ const ServiceStats = () => {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-3 md:mb-4">
             We always try to give you the best service
           </h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed px-4">
             We always try to make our customer Happy. We provide all kind of facilities. Your Satisfaction is our main priority.
           </p>
         </div>
 
         {/* Stats Cards */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="bg-white/90 backdrop-blur-sm rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="bg-white/90 backdrop-blur-sm rounded-xl p-4 md:p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              <div className="text-4xl mb-3">
+              <div className="text-3xl md:text-4xl mb-2 md:mb-3">
                 {stat.icon}
               </div>
-              <div className="text-3xl font-bold text-orange-600 mb-2">
+              <div className="text-2xl md:text-3xl font-bold text-orange-600 mb-1 md:mb-2">
                 {stat.value}
               </div>
-              <div className="text-sm text-gray-600 font-medium">
+              <div className="text-xs md:text-sm text-gray-600 font-medium">
                 {stat.label}
               </div>
             </div>
