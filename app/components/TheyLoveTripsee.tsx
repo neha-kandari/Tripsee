@@ -68,7 +68,7 @@ const TheyLoveTripsee = () => {
             {/* Travel Illustration */}
             <div className="relative w-full h-96 flex items-center justify-center">
               <img
-                src="/assets/illustration.jpg"
+                src="/assets/Illustration.jpg"
                 alt="Travel illustration"
                 className="w-full h-full object-contain"
               />
