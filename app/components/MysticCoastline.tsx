@@ -143,17 +143,17 @@ const MysticCoastline = () => {
           </div>
 
           {/* Navigation Arrows */}
-          <div className="flex justify-center items-center space-x-4">
+          <div className="flex justify-center items-center space-x-3 md:space-x-4">
             <button
               onClick={prevSlide}
-              className="w-12 h-12 rounded-full bg-orange-400 hover:bg-orange-500 transition-colors duration-300 flex items-center justify-center text-white font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
+              className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-orange-400 hover:bg-orange-500 transition-colors duration-300 flex items-center justify-center text-white font-bold text-base md:text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
               aria-label="Previous destinations"
             >
               ‹
             </button>
             <button
               onClick={nextSlide}
-              className="w-12 h-12 rounded-full bg-orange-400 hover:bg-orange-500 transition-colors duration-300 flex items-center justify-center text-white font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
+              className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-orange-400 hover:bg-orange-500 transition-colors duration-300 flex items-center justify-center text-white font-bold text-base md:text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
               aria-label="Next destinations"
             >
               ›
@@ -161,12 +161,12 @@ const MysticCoastline = () => {
           </div>
 
           {/* Carousel Indicators */}
-          <div className="flex justify-center mt-6 space-x-2">
+          <div className="flex justify-center mt-4 md:mt-6 space-x-1.5 md:space-x-2">
             {Array.from({ length: Math.ceil(destinations.length / 3) }, (_, i) => (
               <button
                 key={i}
                 onClick={() => setCurrentIndex(i * 3)}
-                className={`w-3 h-3 rounded-full transition-colors duration-300 ${
+                className={`w-2.5 h-2.5 md:w-3 md:h-3 rounded-full transition-colors duration-300 ${
                   currentIndex === i * 3 ? 'bg-orange-500' : 'bg-orange-300'
                 }`}
                 aria-label={`Go to page ${i + 1}`}
