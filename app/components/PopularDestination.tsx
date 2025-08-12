@@ -19,9 +19,9 @@ const destinations = [
 
 const PopularDestination = () => {
   return (
-    <div className="py-16 px-4 bg-white text-center">
-      <h3 className="text-xl text-green-800 mb-2 italic">Top Destination</h3>
-      <h2 className="text-4xl font-bold text-green-900 mb-12">Popular Destination</h2>
+    <div className="py-12 md:py-16 px-4 bg-white text-center">
+      <h3 className="text-lg md:text-xl text-green-800 mb-2 italic">Top Destination</h3>
+      <h2 className="text-3xl md:text-4xl font-bold text-green-900 mb-8 md:mb-12">Popular Destination</h2>
 
       <Swiper
         effect={'coverflow'}
