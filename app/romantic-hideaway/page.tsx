@@ -304,7 +304,7 @@ const RomanticHideawayPage = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/RomanticBg.png"
+            src="/RomanticBG.png"
             alt="Romantic Hideaway Background"
             fill
             className="object-cover opacity-70"
