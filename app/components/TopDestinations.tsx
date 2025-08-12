@@ -19,12 +19,12 @@ const TopDestinations = () => {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <div className="text-orange-500 text-3xl md:text-4xl font-arizonia mb-1">top</div>
-            <div className="text-gray-800 -mt-2">Destinations</div>
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+            <div className="text-orange-500 text-2xl md:text-3xl lg:text-4xl font-arizonia mb-1">top</div>
+            <div className="text-gray-800 -mt-1 md:-mt-2">Destinations</div>
           </h2>
-          <p className="text-gray-600 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
+          <p className="text-gray-600 text-base md:text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed px-4">
             It&apos;s hard enough deciding to move, you don&apos;t have to worry about where to move to. 
             These are some of the most popular and best locations to move to based on a number of factors.
           </p>
