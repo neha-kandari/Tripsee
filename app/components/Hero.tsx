@@ -86,9 +86,37 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Destination Icons at Bottom */}
-        <div className="relative z-20 pb-8">
+        <div className="relative z-20 pb-4 md:pb-8">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-center items-center space-x-12 md:space-x-16 lg:space-x-20">
+            {/* Mobile: Grid layout for better mobile experience */}
+            <div className="grid grid-cols-4 gap-4 md:hidden">
+              {destinations.map((destination) => (
+                <div
+                  key={destination.name}
+                  className="group cursor-pointer transform hover:scale-110 transition-all duration-300 flex flex-col items-center"
+                >
+                  <div className="relative">
+                    <Image
+                      src={destination.icon}
+                      alt={destination.name}
+                      width={48}
+                      height={48}
+                      className="w-10 h-10 filter drop-shadow-lg"
+                    />
+                    {/* Gradient overlay effect */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-orange-400/20 to-yellow-400/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                  <div className="text-center mt-1">
+                    <span className="text-white text-xs font-medium leading-tight">
+                      {destination.name}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Tablet and Desktop: Horizontal layout with responsive spacing */}
+            <div className="hidden md:flex justify-center items-center space-x-8 lg:space-x-12 xl:space-x-16">
               {destinations.map((destination) => (
                 <div
                   key={destination.name}
@@ -100,13 +128,13 @@ const Hero: React.FC = () => {
                       alt={destination.name}
                       width={48}
                       height={48}
-                      className="w-12 h-12 md:w-16 md:h-16 filter drop-shadow-lg"
+                      className="w-14 h-14 lg:w-16 lg:h-16 filter drop-shadow-lg"
                     />
                     {/* Gradient overlay effect */}
                     <div className="absolute inset-0 bg-gradient-to-br from-orange-400/20 to-yellow-400/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
                   <div className="text-center mt-2">
-                    <span className="text-white text-xs md:text-sm font-medium">
+                    <span className="text-white text-sm lg:text-base font-medium">
                       {destination.name}
                     </span>
                   </div>
